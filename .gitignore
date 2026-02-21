@@ -1,0 +1,96 @@
+# Environment
+.env
+.env.local
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Streamlit
+.streamlit/
+streamlit_run.log
+
+# Data (exclude large CSV files, keep only sample)
+data/*.csv
+!data/enterprise_cloud_spend.csv
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+config/secrets.yaml
+secrets/
+*.pem
+*.key
+.aws/
+
+# IDE extensions
+*.code-workspace
